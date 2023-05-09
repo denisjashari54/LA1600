@@ -61,7 +61,13 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |16.05.2023|Jashari|Eine Unterseite auf der beliebte Games gezeigt werden erstellen|45min|
 | 1.B  |16.05.2023|Jashari|Die Unterseite beliebte Games zeigt eine Liste von beliebten Games an.|45min|
-| 2.A  |16.05.2023|Jesenko|Eine Unterseite mit auf der beliebte Games gezeigt werden erstellen.|45min
+| 2.A  |16.05.2023|Jesenko|Eine Unterseite auf der neue Games gezeigt werden erstellen.|45min|
+| 2.B  |16.05.2023|Jesenko|Die Unterseite neue Games zeigt eine Liste von neuen Games an.|45min|
+| 3.A  |16.05.2023|Nuriswat|Eine Unterseite auf der interessante unbekannte Games gezeigt werden erstellen.|45min|
+| 3.b  |16.05.2023|Nuriswat|Die Unterseite interessante unbekannte Games zeigt eine Liste von interessanten unbekannten Games an.|45min|
+| 4.A  |16.05.2023|Jesenko|User kann nach z.B. Genres Filtern.|45min|
+| 6.A  |16.05.2023|Jashari|Webseite hat funktionierende Verlinkungen.|45min|
+| 7.A  |16.05.2023|Nuriswat|Navigationsleiste und Bild im Header.|45min|
 
 Total: 
 
