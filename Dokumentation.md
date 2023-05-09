@@ -30,7 +30,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 4    |Kann             |Qualität|Als User möchte ich eine Filter funktion haben, damit ich meine Suche nach z.B. Genre eingrenzen kann.|
 | 5    |Muss             |Funktional|Als User möchte ich eine Such leiste, damit ich nach einem bestimmten Game direkt suchen kann und es schneller finde.|
 | 6    |Muss             |Funktional|Als User möchte ich, dass unsere Website über funktionierende Verlinkungen verfügt.||
-| 7    |Muss             |Funktional|Als User möchte ich im Header ein Bild und eine Navigationsleiste einbauen.|
+| 7    |Muss             |Funktional|Als User möchte ich im Header einen Bild und eine Navigationsleiste einbauen.|
 | 8    |Muss             |Funktional|Als User möchte ich im Footer Kontakt und anderen Verlinkungen (z.B Impressum) anfügen.|
 | 9    |Muss             |Qualität|Als User möchte ich Hovereffekte für Buttons und eventuell Textabschnitte implementieren.|
 | 10   |Muss             |Qualität|Als User möchte ich, dass unsere Website responsive für die Desktopversion ist.|
