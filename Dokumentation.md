@@ -23,6 +23,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
+| 0    |Rand             |Funktional| Als Programmierer machen ich die Seite nur mit HTML und CSS, damit ich das besser lernen kann.|
 | 1    |Muss             |Funktional|Als User möchte ich, das mir auf der Webseite neue Games angezeigt werden, damit ich immer die neusten Games kenne.|
 | 2    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite beliebte Games angezeigt werden, damit ich über die beliebtesten Spiele informiert bin.|
 | 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht
