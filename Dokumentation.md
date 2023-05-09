@@ -53,7 +53,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 ![543b4711-997f-4bcc-a9d5-4e088274c43c](https://user-images.githubusercontent.com/110892250/237024444-c7267a5b-140e-4ab0-b502-b86de9b3f6e5.jpg)
 ![usecaseDiagramm_LA1600 drawio](https://user-images.githubusercontent.com/110892637/237026835-1fbec158-235a-4edd-a142-d45273f59935.png)
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte45min|.
 
 ## 2 Planen
 
@@ -61,13 +61,20 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |16.05.2023|Jashari|Eine Unterseite auf der beliebte Games gezeigt werden erstellen|45min|
 | 1.B  |16.05.2023|Jashari|Die Unterseite beliebte Games zeigt eine Liste von beliebten Games an.|45min|
+| 1.C  |23.05.2023|Jashari|Die Unterseite beliebte Games mit CSS Designen.|90min|
 | 2.A  |16.05.2023|Jesenko|Eine Unterseite auf der neue Games gezeigt werden erstellen.|45min|
 | 2.B  |16.05.2023|Jesenko|Die Unterseite neue Games zeigt eine Liste von neuen Games an.|45min|
+| 2.C  |23.05.2023|Jesenko|Die Unterseite neue Games mit CSS Designen.|90min|
 | 3.A  |16.05.2023|Nuriswat|Eine Unterseite auf der interessante unbekannte Games gezeigt werden erstellen.|45min|
-| 3.b  |16.05.2023|Nuriswat|Die Unterseite interessante unbekannte Games zeigt eine Liste von interessanten unbekannten Games an.|45min|
-| 4.A  |16.05.2023|Jesenko|User kann nach z.B. Genres Filtern.|45min|
-| 6.A  |16.05.2023|Jashari|Webseite hat funktionierende Verlinkungen.|45min|
-| 7.A  |16.05.2023|Nuriswat|Navigationsleiste und Bild im Header.|45min|
+| 3.B  |16.05.2023|Nuriswat|Die Unterseite interessante unbekannte Games zeigt eine Liste von interessanten unbekannten Games an.|45min|
+| 3.C  |23.05.2023|Nuriswat|Die Unterseite interessante unbekannte Games mit CSS Designen.|90min|
+| 4.A  |16.05.2023|Jesenko|User kann nach z.B. Genres Filtern.|90min|
+| 6.A  |16.05.2023|Jashari|Webseite hat funktionierende Verlinkungen.|90min|
+| 7.A  |16.05.2023|Nuriswat|Navigationsleiste im Header.|45min|
+| 7.B  |16.05.2023|Nuriswat|Bild im Header.|45min|
+| 8.A  |23.05.2023|Jesenko|Impressum im Footer hinzugefügt.|45min|
+| 8.B  |23.05.2023|Jesenko|Verlinkungen im Footer hinzugefügt.|45min|
+
 
 Total: 
 
