@@ -40,6 +40,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 ### 1.4 Diagramme
 ![543b4711-997f-4bcc-a9d5-4e088274c43c](https://user-images.githubusercontent.com/110892250/237024444-c7267a5b-140e-4ab0-b502-b86de9b3f6e5.jpg)
+![usecaseDiagramm_LA1600 drawio](https://user-images.githubusercontent.com/110892637/237026835-1fbec158-235a-4edd-a142-d45273f59935.png)
 
 ✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
