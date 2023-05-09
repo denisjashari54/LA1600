@@ -26,7 +26,9 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 0    |Rand             |Funktional| Als Programmierer machen ich die Seite nur mit HTML und CSS, damit ich das besser lernen kann.|
 | 1    |Muss             |Funktional|Als User möchte ich, das mir auf der Webseite neue Games angezeigt werden, damit ich immer die neusten Games kenne.|
 | 2    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite beliebte Games angezeigt werden, damit ich über die beliebtesten Spiele informiert bin.|
-| 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht
+| 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht|
+| 4    |Kann             |Qualität|Als User möchte ich eine Filter funktion haben, damit ich meine Suche nach z.B. Genre eingrenzen kann.|
+| 5    |Muss             |Funktional|Als User möchte ich eine Such leiste, damit ich nach einem bestimmten Game direkt suchen kann und es schneller finde.|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -49,8 +51,8 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |16.05.2023||              |               |
-| ...  |       |           |              |               |
+| 1.A  |16.05.2023|Jesenko|Eine Unterseite mit auf der beliebte Games gezeigt werden erstellen|45min|
+| 1.B  |16.05.2023|Jesenko|Die Unterseite beliebte Games zeigt eine Liste von beliebten Games an.|45min|
 
 Total: 
 
