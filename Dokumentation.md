@@ -47,7 +47,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.A  |16.05.2023||              |               |
 | ...  |       |           |              |               |
 
 Total: 
