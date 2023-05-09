@@ -15,16 +15,17 @@ Apple: Nuriswat, Jesenko, Jashari
 
 ### 1.1 Ihr Projekt
 
-Wir machen eine Wenseite, in der die neuseten News über Games stehen.
+Wir machen eine Webseite, in der die neusten News über Games stehen.
 
-In unserem Projekt werden wir eine Webseite machen, mit News über Games die neu erscheinen, welche Games gerade beliebt sind und was es für interessante unbekannte games gibt. Diese Seite werden wir mit HTML und CSS machen.
+In unserem Projekt werden wir eine Webseite machen, mit News über Games, die neu erscheinen, welche Games gerade beliebt sind und was es für interessante unbekannte Games gibt. Diese Seite werden wir mit HTML und CSS machen.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |Muss             |Funktional|Als User möchte ich, das mir auf der Webseite neue Games angezeigt werden, damit ich immer die neusten Games kenne.|
+| 2    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite beliebte Games angezeigt werden, damit ich über die beliebtesten Spiele informiert bin.|
+| 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -38,6 +39,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games die neu
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
+![543b4711-997f-4bcc-a9d5-4e088274c43c](https://user-images.githubusercontent.com/110892250/237024444-c7267a5b-140e-4ab0-b502-b86de9b3f6e5.jpg)
 
 ✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
