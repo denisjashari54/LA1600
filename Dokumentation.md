@@ -29,7 +29,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht|
 | 4    |Kann             |Qualität|Als User möchte ich eine Filter funktion haben, damit ich meine Suche nach z.B. Genre eingrenzen kann.|
 | 5    |Muss             |Funktional|Als User möchte ich eine Such leiste, damit ich nach einem bestimmten Game direkt suchen kann und es schneller finde.|
-| 6    |Muss             |Funktional|Als User möchte ich, dass unsere Website über funktionierende Verlinkungen verfügt.||
+| 6    |Muss             |Funktional|Als User möchte ich, dass unsere Website über funktionierende Verlinkungen verfügt.|
 | 7    |Muss             |Funktional|Als User möchte ich im Header einen Bild und eine Navigationsleiste einbauen.|
 | 8    |Muss             |Funktional|Als User möchte ich im Footer Kontakt und anderen Verlinkungen (z.B Impressum) anfügen.|
 | 9    |Muss             |Qualität|Als User möchte ich Hovereffekte für Buttons und eventuell Textabschnitte implementieren.|
@@ -44,9 +44,24 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
-
+| 1.1  |Webseite wurde aufgerufen|Unterseite beliebte Games angeklickt|Unterseite Beliebte Games.|
+| 1.2  |Unterseite beliebte Games ist offen| - | eine Liste mit beliebten Games wird angezeigt.|
+| 1.3  |Unterseite beliebte Games ist offen| - | die Unterseite beliebte Games hat ein schönes Design das mit CSS gemacht wurde.|
+| 2.1  |Unterseite neue Games wurde aufegerufen|Unterseite neue Games angeklickt|Unterseite neue Games.|
+| 2.2  |Unterseite neue Games ist offen| - |eine Liste mit neuen Games wird angezeigt.|
+| 2.3  |Unterseite neue Games ist offen| - |die Unterseite neue Games hat ein schönes Design das mit CSS gemacht wurde.|
+| 3.1  |Unterseite interessante unbekannte Games wurde aufegerufen|Unterseite interessante unbekannte Games angeklickt|Unterseite interessante unbekannte Games.|
+| 3.2  |Unterseite interessante unbekannte Games ist offen| - |eine Liste mit interessanten unbekannten Games wird angezeigt.|
+| 3.3  |Unterseite interessante unbekannte Games ist offen| - |die Unterseite interessante unbekannte Games hat ein schönes Design das mit CSS gemacht wurde.|
+| 4.1  |User drückt auf Filter funktion.| - |Filter menü öffnet sich|
+| 4.2  |Filter menü ist offen|User wählt Filter Genre Action|Webseite wird nach Action gefilltert|
+| 6.1  |Webseite ist offen| User drückt auf Link| Verlinktes Objekt öffnet sich.|
+| 7.1  |Wenseite ist offen| - | Im Header sind ein Bild und eine Navigationsleiste|
+| 8.1  |Webseite ist offen| - | Im Footer sind Verlinkungen die z.B zu einem Impressum führen.|
+| 9.1  |Webseite ist offen| User Hovert über Button| Hovereffekt|
+|10.1  |Webseite ist offen| - |Webseite ist für den Desktop Responsiv|
+|11.1  |Webseite ist offen| - |Webseite ist für das Smartphone Responsiv|
+|12.1  |Webseite ist offen| - |Container überlappen nicht.|
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
