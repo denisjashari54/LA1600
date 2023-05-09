@@ -34,7 +34,8 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 8    |Muss             |Funktional|Als User möchte ich im Footer Kontakt und anderen Verlinkungen (z.B Impressum) anfügen.|
 | 9    |Muss             |Qualität|Als User möchte ich Hovereffekte für Buttons und eventuell Textabschnitte implementieren.|
 | 10   |Muss             |Qualität|Als User möchte ich, dass unsere Website responsive für die Desktopversion ist.|
-| 11   |Muss             |Funktional|Als User möchte ich, dass sich die Container nicht überlappen.|
+| 11   |Kann             |Qualität|Als User möchte ich, dass unsere Website responsove für das Smartphone ist.|
+| 12   |Muss             |Funktional|Als User möchte ich, dass sich die Container nicht überlappen.|
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
