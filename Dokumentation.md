@@ -38,6 +38,8 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 12   |Muss             |Funktional|Als User möchte ich, dass sich die Container nicht überlappen.|
 
 
+
+
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
