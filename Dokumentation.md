@@ -29,6 +29,14 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht|
 | 4    |Kann             |Qualität|Als User möchte ich eine Filter funktion haben, damit ich meine Suche nach z.B. Genre eingrenzen kann.|
 | 5    |Muss             |Funktional|Als User möchte ich eine Such leiste, damit ich nach einem bestimmten Game direkt suchen kann und es schneller finde.|
+| 6    |Muss             |Funktional|Website muss über funktionierende Verlinkungen verfügen.||
+| 7    |Muss             |Funktional|Header mit Bild und Navigationsleiste.|
+| 8    |Muss             |Funktional|Footer mit Kontakt und anderen Verlinkungen (z.B Impressum).|
+| 9    |Muss             |Qualität|Hovereffekte für Buttons und eventuell Textabschnitte.|$
+einbauen.|
+| 10   |Muss             |Qualität|Alle Seiten sind responsive für die Desktopversion.|
+| 11   |Muss             |Funktional|Container überlappen sich nicht.|
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
