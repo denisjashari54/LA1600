@@ -59,8 +59,9 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |16.05.2023|Jesenko|Eine Unterseite mit auf der beliebte Games gezeigt werden erstellen|45min|
-| 1.B  |16.05.2023|Jesenko|Die Unterseite beliebte Games zeigt eine Liste von beliebten Games an.|45min|
+| 1.A  |16.05.2023|Jashari|Eine Unterseite auf der beliebte Games gezeigt werden erstellen|45min|
+| 1.B  |16.05.2023|Jashari|Die Unterseite beliebte Games zeigt eine Liste von beliebten Games an.|45min|
+| 2.A  |16.05.2023|Jesenko|Eine Unterseite mit auf der beliebte Games gezeigt werden erstellen.|45min
 
 Total: 
 
