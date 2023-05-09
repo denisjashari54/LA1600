@@ -32,8 +32,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 6    |Muss             |Funktional|Website muss über funktionierende Verlinkungen verfügen.||
 | 7    |Muss             |Funktional|Header mit Bild und Navigationsleiste.|
 | 8    |Muss             |Funktional|Footer mit Kontakt und anderen Verlinkungen (z.B Impressum).|
-| 9    |Muss             |Qualität|Hovereffekte für Buttons und eventuell Textabschnitte.|$
-einbauen.|
+| 9    |Muss             |Qualität|Hovereffekte für Buttons und eventuell Textabschnitte einbauen.|
 | 10   |Muss             |Qualität|Alle Seiten sind responsive für die Desktopversion.|
 | 11   |Muss             |Funktional|Container überlappen sich nicht.|
 
