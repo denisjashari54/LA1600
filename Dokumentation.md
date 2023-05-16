@@ -102,14 +102,16 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns dazu entschieden die Weibseite mit drei websites zu gestallten.
+Für die Farben haben wir uns noch nicht festgelegt aber vorerst haben wir ein blau schwarzes design.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 2.A  |16.05.2023|Jesenko|45min|30min|
+| 2.B  |16.05.2023|Jesenko|45min|60min|
+| 2.C  |16.05.2023|Jesenko|90min|120min|
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
