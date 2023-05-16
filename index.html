@@ -3,26 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    background-color: #1c1c1c;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Titel {
+    align-items: center;
+}
+
+.Titel h1 {
+    font-size: 100px;
+    color: #ffffff;
+    background-color: #3a7bd5;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.Titel a {
+    font-size: 100px;
+    color: #ffffff;
+    background-color: #3a7bd5;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.image-cyberpunk-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.Unterseinten-href {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Unterseinten-href a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #3a7bd5;
+}
+
+.Unterseinten-href a:hover {
+    background-color: #1e5e9e;
+}
+
+.footer {
+    background-color: #1c1c1c;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #3a7bd5;
+}
+
+.footer a:hover {
+    background-color: #1e5e9e;
+}
+
+.Main-Text {
+    background-color: #949494;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.Main-Text p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .Main-Text {
+        display: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    .Unterseinten-href a {
+        display: center;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 1px;
+        padding: 20px 40px;
+        border-radius: 20px;
+        background-color: #3a7bd5;
+    }
+    
+    .image-cyberpunk-container img {
+        width: 200px;
+
+
+    }
+
+    #picture2 {
+        visibility: hidden;
+    }
+
+    #picture1 {
+        width: 400px;
+        margin-left: 200px;
+    }
+
+    #Neue-Games {
+        border-radius: 300px;
+    }
+
+    #Beliebte-Games {
+        border-radius: 300px;
+    }
+
+    #Unbekannte-Games {
+        border-radius: 300px;
+    }
+
+}
+    </style>
+        
     <title>Gaming News</title>
 </head>
 <body>
-<header>
-    <h1>Daily News about Gaming</h1>
-</header>
-<main>
-    <article>
-        <h2>Upcoming Games 2023</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Nisi tempore voluptatum at neque quas nesciunt dolorum nulla accusamus? 
-            Deserunt dolore, at ab mollitia harum maiores natus in? Unde a mollitia 
-            laboriosam autem error impedit nesciunt. Molestias, minima sunt ullam 
-            architecto dolorum officia incidunt eligendi odit quaerat suscipit at 
-            necessitatibus repellendus rerum sequi ab libero eveniet aliquam consequatur! 
-            Atque, tempore nesciunt. Molestiae tempora sed quod reiciendis natus exercitationem? 
-            Fugit, sequi. Dignissimos quam earum expedita vero sapiente laboriosam ipsum saepe
-    </article>
-    </main>
-<footer>
-    <p>&copy; 2023 Gaming News. All rights reserved.</p>
-</footer>
+
+    <header>
+        <div class="Titel">
+            <h1 id="Games-Titel">Games</h1>
+
+        </div>
+    </header>
+
+    <div class="image-cyberpunk-container" class="slideshow">
+        <img id="picture1"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Kjn9A4iyk7FxgjIK06ZZVgHaEK%26pid%3DApi&f=1&ipt=a89bdd220a2f1f77313bab331f6c32b4bf2630d057e4a3962a9ef6677db59909&ipo=images"
+            alt="Cyberpunk">
+        <img id="picture2"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.B0q92njQWi5LCVXbG9zvDwHaEK%26pid%3DApi&f=1&ipt=df4800335382562a6c9a3db1a8ae097b31451ebe0ebacbd82ac897ddb306c72f&ipo=images "
+            alt="Destiny">
+
+    </div>
+    <br>
+    <div class="Unterseinten-href">
+        <a id="Neue-Games" href="">Neue Games</a>
+        <a id="Beliebte-Games" href="">Beliebte Games</a>
+        <a id="Unbekannte-Games" href="">Unbekannte Games</a>
+    </div>
+    <div class="Main-Text">
+        <h2>Für was kann man diese Webseite benutzen</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit beatae aliquid praesentium officiis,
+            quae perspiciatis illo rerum explicabo commodi ex laborum, inventore esse magnam, minus pariatur magni
+            mollitia! Labore omnis, velit eius aspernatur, amet laboriosam pariatur corrupti molestias eum voluptas
+            adipisci illum ea vel, reprehenderit repudiandae nulla rem veritatis delectus alias. Minima, quos natus.
+            Quisquam sapiente earum numquam saepe! Deleniti, laudantium autem! Suscipit quod similique ut quisquam,
+            totam quo accusantium nulla itaque et? Modi eum eaque totam laboriosam amet! Obcaecati quidem perspiciatis
+            incidunt temporibus voluptates dolore animi, consequatur voluptate quis iure fugit numquam dolorum id
+            impedit repudiandae rerum porro ipsum tenetur qui at quas omnis officiis architecto? Earum sint hic fugit
+            voluptatibus expedita odit iusto ullam voluptatum. Aspernatur, impedit enim animi libero quia vero at,
+            aliquam architecto beatae velit explicabo tempore amet. Odio quas facere nesciunt laudantium quos ratione
+            aliquid doloremque, quibusdam eum autem nulla. Iure praesentium nihil alias dolore? Natus deserunt neque
+            voluptatum ducimus est in corrupti error atque recusandae delectus. Soluta, numquam corrupti ducimus
+            doloremque quo porro, culpa quas odio magni nemo adipisci rem nobis. Dolores, molestias fugiat. Eveniet enim
+            tempora excepturi deleniti sit, ducimus non pariatur, esse veniam dolorum dignissimos. Alias, velit quidem?
+            Ab voluptas doloremque officiis?
+        </p>
+        <h2>Was ist unser Ziel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facere, expedita incidunt tempore
+            aliquid corporis sunt dolorem ipsa a deserunt vel esse! Amet explicabo officia in autem atque, optio sed
+            labore voluptas similique. Illo optio reprehenderit dolorum magnam eaque ratione voluptate laborum eos,
+            deserunt odio omnis iusto sequi qui perferendis pariatur autem quas hic esse, fugiat recusandae! Ducimus
+            incidunt quasi, neque aut repellat vitae. Temporibus quidem nostrum tempora quo. Saepe repellat unde, harum
+            officiis nam similique voluptates facilis vel dignissimos, consectetur reprehenderit sint beatae porro
+            cupiditate distinctio voluptate aliquid maiores eveniet, possimus necessitatibus doloribus! Magni magnam
+            dolores atque consequatur labore.
+        </p>
+
+    </div>
+    <footer>
+
+        <div class="footer">
+
+            <a href="">Über uns</a>
+        </div>
+
+    </footer>
 </body>
+
+</html>
