@@ -7,8 +7,8 @@ Apple: Nuriswat, Jesenko, Jashari
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
+|09.05.2023| 0.0.1|Wir haben eine erste Test Website erstellt und unser Projekt geplant.|
+|16.05.2023| 0.3.0|Wir haben jetzt an unseren drei individuellen Unterseiten gearbeitet und von diesen erste versionen erstellt.|
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
