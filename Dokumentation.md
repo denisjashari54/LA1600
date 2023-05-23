@@ -115,6 +115,12 @@ Für die Farben haben wir uns noch nicht festgelegt aber vorerst haben wir ein b
 | 2.A  |16.05.2023|Jesenko|45min|30min|
 | 2.B  |16.05.2023|Jesenko|45min|60min|
 | 2.C  |16.05.2023|Jesenko|90min|120min|
+|3.A|16.05.2023|Nursiwat|45min|70min|
+| 3.B  |16.05.2023|Nuriswat|45min|50min|
+| 3.C  |16.05.2023|Nuriswat|90min|120min|
+
+
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
