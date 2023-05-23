@@ -1,69 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beliebte Games</title>
-    <link rel="stylesheet" href="unkownUnterseite.css">
+    <title>Beliebte Videospiele</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7ff;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        #header {
+            background-color: #3399ff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .game {
+            margin: 20px;
+            padding: 10px;
+            background-color: #b3e0ff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .game:hover {
+            background-color: #99d6ff;
+        }
+
+        .game h2 {
+            margin: 0;
+        }
+
+        #links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .link-button {
+            padding: 10px 20px;
+            background-color: #3399ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: #0066cc;
+        }
+    </style>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <div><a href="/index.html">Home</a></div>
-            <div><a href="/underpages/unkownGoodGames.html">Unbekannte gute Spiele</a></div>
-        </div>
-    </nav>
-</body>
-<header>
-    <div>
-        <h1>Auf dieser Seite erhalten Sie einen Überblick zu den beliebtesten Games unserer Zeit!</h1>
+    <div id="header">
+        <h1>Beliebte Videospiele</h1>
+        <p>Willkommen auf unserer Website, wo wir über die beliebtesten Videospiele sprechen!</p>
     </div>
-</header>
-<div>
-    Videospiele sind ein zentraler Bestandteil der zeitgenössischen Unterhaltungskultur geworden.
-    Beliebte Spiele wie "Fortnite", "Among Us" und "Minecraft" zeichnen sich durch ihre vielfältigen Spielwelten,
-    interaktiven Funktionen und Gemeinschaftsbildung aus. Die Spielkultur hat sich stark weiterentwickelt und
-    spiegelt die ständige Innovation und Diversität der modernen Technologie wider. Es ist kein Hobby mehr,
-    sondern ein Lebensstil, eine soziale Plattform und für manche sogar eine berufliche Laufbahn.
-</div>
-<br>
-<div>
-    <ul>
-        <p>
-            <li>Red Dead Redemption 2</li>
-        <div>
-            Lorem ipsum dolor sit amet.
-        </div>
-        </p>
+    <br>
+    <div id="links">
+        <a class="link-button" href="/index.html">Home</a>
+        <a class="link-button" href="/underpages/unkownGoodGames.html">Unbekannte gute Spiele</a>
+        <a class="link-button" href="/underpages/newReleases.html">Neue Games</a>
+    </div>
 
-        <p>
-            <li>The Witcher 3: Wild Hunt</li>
+    <div class="game">
+        <h2>Red Dead Redemption 2</h2>
+        <p>Ein episches Western-Abenteuer mit einer ausgefeilten Story und einer beeindruckenden Open-World-Umgebung.
         </p>
-
-        <p>
-            <li>Cyperpunk 2077</li>
-        </p>
-
-        <p>
-            <li>Far Cry 5</li>
-        </p>
-
-        <p>
-            <li>Minecraft</li>
-        </p>
-
-        <p>
-            <li>Fortnite</li>
-        </p>
-
-        <p>
-            <li>God of War (2018)</li>
-        </p>
-    </ul>
-</div>
-
+    </div>
+    <div class="game">
+        <h2>Fortnite</h2>
+        <p>Ein Battle-Royale-Spiel, bekannt für seine farbenfrohen Grafiken und bauorientierten Mechaniken.</p>
+    </div>
+    <div class="game">
+        <h2>God of War: Ragnarok</h2>
+        <p>Ein Action-Abenteuerspiel, das in der nordischen Mythologie verwurzelt ist und epische Kämpfe bietet.</p>
+    </div>
+    <div class="game">
+        <h2>Far Cry 5</h2>
+        <p>Eine Open-World-Ego-Shooter-Spielreihe, die für ihre intensiven Kämpfe und dynamischen Spielwelten bekannt
+            ist.</p>
+    </div>
+    <div class="game">
+        <h2>Cyberpunk 2077</h2>
+        <p>Ein ambitioniertes RPG-Spiel in einer dystopischen Zukunft mit umfangreichen Anpassungsoptionen und
+            Handlungssträngen.</p>
+    </div>
+    <div class="game">
+        <h2>The Witcher 3: Wild Hunt</h2>
+        <p>Ein preisgekröntes RPG-Spiel, das auf der "Witcher"-Reihe von Fantasy-Romanen basiert und eine tiefgreifende
+            Storyline bietet.</p>
+    </div>
+    <div class="game">
+        <h2>Minecraft</h2>
+        <p>Ein Sandbox-Spiel, das den Spielern erlaubt, ihre eigene Welt aus Blöcken zu bauen und dabei Kreativität und
+            Überlebensinstinkt einzusetzen.</p>
+    </div>
+    <div class="game">
+        <h2>Grand Theft Auto V</h2>
+        <p>Eines der meistverkauften Spiele aller Zeiten, das eine große, dynamische und offene Welt sowie einzigartige
+            Charaktere bietet.</p>
+</body>
 
 </html>
