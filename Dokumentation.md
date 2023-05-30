@@ -9,7 +9,7 @@ Apple: Nuriswat, Jesenko, Jashari
 | ----- | ------- | ------------------------------------------------------------ |
 |09.05.2023| 0.0.1|Wir haben eine erste Test Website erstellt und unser Projekt geplant.|
 |16.05.2023| 0.3.0|Wir haben jetzt an unseren drei individuellen Unterseiten gearbeitet und von diesen erste versionen erstellt.|
-|23.05.2023| 0.5.0|Wir haben einen Prototyp von unseren Unterseiten fertiggestellt, es hat aber nicht geklappt diese Seiten miteinander zu verlinken.|
+|23.05.2023| 0.5.0|Wir haben einen Prototyp von unseren Unterseiten fertiggestellt, es hat aber nicht geklappt diese Seiten miteinander zu verlinken. Es hat auch noch nicht geklappt den Filter hinzuzufügen.|
 || 1.0.0   |                                                              |
 
 ## 1 Informieren
