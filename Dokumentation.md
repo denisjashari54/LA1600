@@ -9,7 +9,8 @@ Apple: Nuriswat, Jesenko, Jashari
 | ----- | ------- | ------------------------------------------------------------ |
 |09.05.2023| 0.0.1|Wir haben eine erste Test Website erstellt und unser Projekt geplant.|
 |16.05.2023| 0.3.0|Wir haben jetzt an unseren drei individuellen Unterseiten gearbeitet und von diesen erste versionen erstellt.|
-|       | 1.0.0   |                                                              |
+|23.05.2023| 0.5.0|Wir haben einen Prototyp von unseren Unterseiten fertiggestellt, es hat aber nicht geklappt diese Seiten miteinander zu verlinken. Es hat auch noch nicht geklappt den Filter hinzuzufügen.|
+|| 1.0.0   |                                                              |
 
 ## 1 Informieren
 
@@ -28,7 +29,6 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 2    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite beliebte Games angezeigt werden, damit ich über die beliebtesten Spiele informiert bin.|
 | 3    |Muss             |Funktional|Als User möchte ich, dass mir auf der Webseite interessante Games angezeigt werden, die eher unbeliebt sind, damit ich vielleicht ein neues Game finde, dass mir Spass macht|
 | 4    |Kann             |Qualität|Als User möchte ich eine Filter funktion haben, damit ich meine Suche nach z.B. Genre eingrenzen kann.|
-| 5    |Muss             |Funktional|Als User möchte ich eine Such leiste, damit ich nach einem bestimmten Game direkt suchen kann und es schneller finde.|
 | 6    |Muss             |Funktional|Als User möchte ich, dass unsere Website über funktionierende Verlinkungen verfügt.|
 | 7    |Muss             |Funktional|Als User möchte ich im Header einen Bild und eine Navigationsleiste einbauen.|
 | 8    |Muss             |Funktional|Als User möchte ich im Footer Kontakt und anderen Verlinkungen (z.B Impressum) anfügen.|
@@ -56,7 +56,8 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 3.2  |Unterseite interessante unbekannte Games ist offen| - |eine Liste mit interessanten unbekannten Games wird angezeigt.|
 | 3.3  |Unterseite interessante unbekannte Games ist offen| - |die Unterseite interessante unbekannte Games hat ein schönes Design das mit CSS gemacht wurde.|
 | 4.1  |User drückt auf Filter funktion.| - |Filter menü öffnet sich|
-| 4.2  |Filter menü ist offen|User wählt Filter Genre Action|Webseite wird nach Action gefilltert|
+| 4.2  |Filter menü ist offen|User wählt Filter Multyplayer|Es werden nurnoch Multyplayer Games angezeigt.|
+| 4.3  |Fliter menü ist offen|User wählt Filter Singleplayer|Es werden nunoch Singleplayer Games angezeigt.|
 | 6.1  |Webseite ist offen| User drückt auf Link| Verlinktes Objekt öffnet sich.|
 | 7.1  |Wenseite ist offen| - | Im Header sind ein Bild und eine Navigationsleiste|
 | 8.1  |Webseite ist offen| - | Im Footer sind Verlinkungen die z.B zu einem Impressum führen.|

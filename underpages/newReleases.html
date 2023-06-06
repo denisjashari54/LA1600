@@ -8,117 +8,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neue Games</title>
  <style>
-        body {
-            background-color: #1c1c1c;
-        }
+       body {
+    background-color: #1c1c1c;
+}
 
-        .Titel h1 {
+.Titel h1 {
 
-            font-size: 100px;
-            color: #ffffff;
-            background-color: #3a7bd5;
-            border-radius: 10px;
-            padding: 20px 40px;
+    font-size: 100px;
+    color: #ffffff;
+    background-color: #3a7bd5;
+    border-radius: 10px;
+    padding: 20px 40px;
 
-        }
-
-
-
-        .Neue-Games-Liste-Container h2 {
-            color: #ffff;
-            display: flex;
-            font-size: 30px;
-            background-color: #1e5e9e;
-            text-decoration: none;
-            border-radius: 10px;
-            padding: 20px 40px;
-            justify-content: center;
-            align-items: center;
+}
 
 
 
-        }
+#Multyplayer:checked~.Neue-Games-Liste-Container .Singleplayer {
+    visibility: hidden;
+    height: 0;
+}
 
-        .Neue-Games-Liste-Container p {
-            visibility: hidden;
-            display: flex;
-            background-color: #3a7bd5;
-            font-size: 20px;
-            border-radius: 10px;
-            padding: 20px 40px;
-            justify-content: center;
-            align-items: center;
-        }
+#Singleplayer:checked~.Neue-Games-Liste-Container .Multyplayer-blocks {
+    visibility: hidden;
+    height: 0;
+}
 
-        .Neue-Games-Liste-Container img {
 
-            width: 500px;
-            margin-bottom: 10px;
-            display: flex;
-            border: 5px solid #3a7bd5;
-            border-radius: 10px;
-            justify-content: center;
-            align-items: center;
 
-        }
+.Neue-Games-Liste-Container h2 {
+    color: #ffff;
+    display: flex;
+    font-size: 30px;
+    background-color: #1e5e9e;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
 
-        #Image-Odyssey:hover~#Text-One-Peace {
-            visibility: visible;
-        }
 
-        #Image-Forspoken:hover~#Text-Forspoken {
-            visibility: visible;
-        }
 
-        #Image-Hogwarts:hover~#Text-Hogwarts-Legacy {
-            visibility: visible;
-        }
+}
 
-        #Image-Atomic-Heart:hover~#Text-Atomic-Heart {
-            visibility: visible;
-        }
+.Neue-Games-Liste-Container p {
+    visibility: hidden;
+    display: flex;
+    background-color: #3a7bd5;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+}
 
-        #Image-Forest:hover~#Text-Sons-of-the-forest {
-            visibility: visible;
-        }
+.Neue-Games-Liste-Container img {
 
-        #Image-Forza:hover~#Text-Forza-Horizo-5 {
-            visibility: visible;
-        }
+    width: 500px;
+    margin-bottom: 10px;
+    display: flex;
+    border: 5px solid #3a7bd5;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 
-        #Image-Minecraft:hover~#Text-Minecraft-Legends {
-            visibility: visible;
-        }
+}
 
-        #Image-Dead-Island:hover~#Text-Dead-Island-2 {
-            visibility: visible;
-        }
+#Image-Odyssey:hover~#Text-One-Peace {
+    visibility: visible;
+}
 
-        #Image-Jedi:hover~#Text-Star-Wars-Jedi-Survivor {
-            visibility: visible;
-        }
+#Image-Forspoken:hover~#Text-Forspoken {
+    visibility: visible;
+}
 
-        #Image-Zelda:hover~#Text-Zelda {
-            visibility: visible;
-        }
+#Image-Hogwarts:hover~#Text-Hogwarts-Legacy {
+    visibility: visible;
+}
 
-        .footer {
-            background-color: #1c1c1c;
-        }
+#Image-Atomic-Heart:hover~#Text-Atomic-Heart {
+    visibility: visible;
+}
 
-        .footer a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 20px;
-            padding: 20px 40px;
-            border-radius: 5px;
-            background-color: #3a7bd5;
-        }
+#Image-Forest:hover~#Text-Sons-of-the-forest {
+    visibility: visible;
+}
 
-        .footer a:hover {
-            background-color: #1e5e9e;
+#Image-Forza:hover~#Text-Forza-Horizo-5 {
+    visibility: visible;
+}
 
-        }
+#Image-Minecraft:hover~#Text-Minecraft-Legends {
+    visibility: visible;
+}
+
+#Image-Dead-Island:hover~#Text-Dead-Island-2 {
+    visibility: visible;
+}
+
+#Image-Jedi:hover~#Text-Star-Wars-Jedi-Survivor {
+    visibility: visible;
+}
+
+#Image-Zelda:hover~#Text-Zelda {
+    visibility: visible;
+}
+
+.footer {
+    background-color: #1c1c1c;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #3a7bd5;
+}
+
+.footer a:hover {
+    background-color: #1e5e9e;
+
+}
+
+#Multyplayer {
+    visibility: hidden;
+}
+
+
+
+#Multyplayer-label {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #3a7bd5;
+
+}
+
+
+
+#Singleplayer-label {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #3a7bd5;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* General styles */
+    body {
+        background-color: #1c1c1c;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* Title styles */
+    .Titel h1 {
+        font-size: 6vw;
+        color: #ffffff;
+        background-color: #3a7bd5;
+        border-radius: 10px;
+        padding: 2vw 4vw;
+    }
+
+    /* Game list styles */
+    .Neue-Games-Liste-Container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 2vw;
+    }
+
+    .Neue-Games-Liste-Container h2 {
+        color: #ffff;
+        font-size: 4vw;
+        background-color: #1e5e9e;
+        text: none;
+        border-radius: 10px;
+        padding: 2vw 4vw;
+        margin: 2vw;
+    }
+
+    .Neue-Games-Liste-Container p {
+
+        background-color: #3a7bd5;
+        font: 3vw;
+        border-radius: 10px;
+        padding: 2vw 4vw;
+        margin: 2vw;
+    }
+
+    .Neue-Games-Liste-Container img {
+        width: 80vw;
+        max-width: 500px;
+        -bottom: 2vw;
+        border: 0.5vw solid #3a7bd5;
+        border-radius: 10px;
+    }
+
+
+    #Image-Odyssey~#Text-One-Peace,
+    #Image-Forspoken~#Text-Forspoken,
+    #Image-Hogwarts~#Text-Hogwarts-Legacy,
+    #Image-Atomic-Heart~#Text-Atomic-Heart,
+    #Image-Forest~#Text-Sons-of-the-forest,
+    #ImageForza~#Text-Forza-Horizo-5,
+    #Image-Minecraft~#Text-Minecraft-Legends,
+    #Image-Dead-Island~#Text-Dead-Island-2,
+    #Image-Jedi~Text-Star-Wars-Jedi-Survivor,
+    #Image-Zelda~#Text-Zelda {
+        visibility: visible;
+        font-size: 3vw;
+        margin: 2vw;
+    }
+
+    /* Footer styles */
+    .footer {
+        background-color: #1c1c1c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2vw;
+    }
+
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 4vw;
+        padding: 2vw 4vw;
+        border-radius: 5px;
+        background-color: #3a7bd5;
+        margin: 2vw;
+    }
+
+    .footer a:hover {
+        background: #1e5e9e;
+    }
+}
     </style>
    
 </head>
@@ -131,83 +264,101 @@
         <label for="hideCheckbox">Filter</label>
         <div id="elementToHide">Filter</div>
     </div>
+    <input type="checkbox" id="Multyplayer" />
+    <label id="Multyplayer-label" for="Multyplayer">Multyplayer</label>
+    <input type="checkbox" id="Singleplayer" />
+    <label id="Singleplayer-label" for="Multyplayer">Singleplayer</label>
 
+<div class="Neue-Games-Liste-Container">
 
-    <div class="Neue-Games-Liste-Container">
+        <div class="Singleplayer">
+            <h2>One Peace Odyssey</h2>
+            <img id="Image-Odyssey"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fone-piece-odyssey-4k-gaming_bWtqbm6UmZqaraWkpJRmbmdlrWZlbWc.jpg&f=1&nofb=1&ipt=c87f3c124207d3c3fb113001979e75c4767f67959703c17fdd5d1539ccb76c9c&ipo=images"
+                alt="One Peace Odyssey" width="200">
+            <p id="Text-One-Peace">Ein brandneues RGP in der Welt des beliebten Animes ONE PIECE! Erlebe als Mitglied der Strohhut-Crew ein fantastisches ONE PIECE-Abenteuer!</p>
 
+        </div>
+        <div class="Singleplayer">
+            <h2>Forspoken</h2>
+            <img id="Image-Forspoken"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ferrekgamer.com%2Fwp-content%2Fuploads%2F2021%2F09%2FForspoken-Featured-image.jpg&f=1&nofb=1&ipt=f088d9fbc91f1c55a126d079fc2faeb35dc5e0e152479eeb8a01f3c3282a226f&ipo=images"
+                alt="Forspoken" width="200">
+             <p id="Text-Forspoken">Forspoken ist ein Action-Rollenspiel aus dem Jahr 2023, das von Luminous Productions entwickelt und von Square Enix veröffentlicht wurde. Es wurde am 24. Januar 2023 für PlayStation 5 und Windows veröffentlicht. Das Spiel erhielt gemischte Kritiken von Kritikern. Es war das letzte Spiel von Luminous Productions vor der Schließung des Unternehmens am 1. Mai 2023.</p>
 
-        <h2>One Peace Odyssey</h2>
-        <img id="Image-Odyssey"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fone-piece-odyssey-4k-gaming_bWtqbm6UmZqaraWkpJRmbmdlrWZlbWc.jpg&f=1&nofb=1&ipt=c87f3c124207d3c3fb113001979e75c4767f67959703c17fdd5d1539ccb76c9c&ipo=images"
-            alt="One Peace Odyssey" width="200">
-        <p id="Text-One-Peace">Ein brandneues RGP in der Welt des beliebten Animes ONE PIECE! Erlebe als Mitglied der Strohhut-Crew ein fantastisches ONE PIECE-Abenteuer!</p>
+            
+        </div>
 
+        <div class="Singleplayer">
+            <h2>Hogwarts Legacy</h2>
+            <img id="Image-Hogwarts"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.impulsegamer.com%2Farticles%2Fwp-content%2Fuploads%2F2020%2F09%2Fhogw01.jpg&f=1&nofb=1&ipt=34814a8a9bc5ecb8cb190c40ae474296b04aff7b6dd2f9751636c66c00b504b5&ipo=images"
+                alt="Hogwarts Legacy" width="200">
+            <p id="Text-Hogwarts-Legacy">Hogwarts Legacy ist ein fesselndes Open-World Action-Rollenspiel. Jetzt kannst du die Kontrolle übernehmen und im Mittelpunkt deines eigenen Abenteuers in der Welt der Zauberei stehen.</p>
 
-        <h2>Forspoken</h2>
-        <img id="Image-Forspoken"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ferrekgamer.com%2Fwp-content%2Fuploads%2F2021%2F09%2FForspoken-Featured-image.jpg&f=1&nofb=1&ipt=f088d9fbc91f1c55a126d079fc2faeb35dc5e0e152479eeb8a01f3c3282a226f&ipo=images"
-            alt="Forspoken" width="200">
-        <p id="Text-Forspoken">Forspoken ist ein Action-Rollenspiel aus dem Jahr 2023, das von Luminous Productions entwickelt und von Square Enix veröffentlicht wurde. Es wurde am 24. Januar 2023 für PlayStation 5 und Windows veröffentlicht. Das Spiel erhielt gemischte Kritiken von Kritikern. Es war das letzte Spiel von Luminous Productions vor der Schließung des Unternehmens am 1. Mai 2023.</p>
+        </div>
+        <div class="Singleplayer">
+            <h2>Atomic Heart</h2>
+            <img id="Image-Atomic-Heart"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs2.gaming-cdn.com%2Fimages%2Fproducts%2F2587%2Forig%2Fatomic-heart-cover.jpg&f=1&nofb=1&ipt=93b74f5902dcc31eae6e5693a915ce4b8cfb3839689daca58add4ba217824e2d&ipo=images"
+                alt="Atomic Heart" width="200">
+            <p id="Text-Atomic-Heart">Erlebe explosive Begegnungen in einer grandios-irrsinnigen Welt. Passe deinen Kampfstil an jeden Gegner an, nutze die Umgebung und verbessere deine Ausrüstung, um die Mission zu erfüllen. Die Wahrheit wird mit Blut bezahlt.</p>
+        </div>
+        <div class="Multyplayer-blocks">
+            <h2>Sons of the forest</h2>
+            <img id="Image-Forest"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgamingbolt.com%2Fwp-content%2Fuploads%2F2019%2F12%2FSons-of-the-Forest.jpg&f=1&nofb=1&ipt=0ffa1c5c1df24dc9858955973a6745c39c01f2552ce1fbd1327e21f94dfd6268&ipo=images"
+                alt="Sons of the forest" width="200">
+             <p id="Text-Sons-of-the-forest">Die Suche nach einen vermissten Milliardär führt Dich auf eine abgelegenen Insel, die sich als von Kannibalen verseuchten Hölle entpuppt. Nutze deine handwerklichen Fähigkeiten und kämpfe ums Überleben, allein oder mit Freunden, in dieser neuen, furchterregenden Openworld-Survival-Horror-Spiel</p>
 
+        </div>
+        <div class="Multyplayer-blocks">
+            <h2>Forza Horizon 5</h2>
+            <img id="Image-Forza"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgameranx.com%2Fwp-content%2Fuploads%2F2021%2F08%2FForzaHorizon5_KeyArt_Horiz_RGB_Final.jpg&f=1&nofb=1&ipt=729a34557ae7bb0fcc14412d8dbffe363201a2124858757192ff8e6b6b652754&ipo=images"
+                alt="Forza Horizon 5" width="200">
+             <p id="Text-Forza-Horizo-5">Erkunde die pulsierenden Open-World-Landschaften Mexikos mit grenzenloser, unterhaltsamer Fahraction in den besten Autos der Welt. Mach dich auf den Weg zum Hot Wheels Park und erlebe die extremsten Strecken, die je konzipiert wurden. Erfordert Forza Horizon 5.</p>
 
-
-        <h2>Hogwarts Legacy</h2>
-        <img id="Image-Hogwarts"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.impulsegamer.com%2Farticles%2Fwp-content%2Fuploads%2F2020%2F09%2Fhogw01.jpg&f=1&nofb=1&ipt=34814a8a9bc5ecb8cb190c40ae474296b04aff7b6dd2f9751636c66c00b504b5&ipo=images"
-            alt="Hogwarts Legacy" width="200">
-        <p id="Text-Hogwarts-Legacy">Hogwarts Legacy ist ein fesselndes Open-World Action-Rollenspiel. Jetzt kannst du die Kontrolle übernehmen und im Mittelpunkt deines eigenen Abenteuers in der Welt der Zauberei stehen.</p>
-
-
-        <h2>Atomic Heart</h2>
-        <img id="Image-Atomic-Heart"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs2.gaming-cdn.com%2Fimages%2Fproducts%2F2587%2Forig%2Fatomic-heart-cover.jpg&f=1&nofb=1&ipt=93b74f5902dcc31eae6e5693a915ce4b8cfb3839689daca58add4ba217824e2d&ipo=images"
-            alt="Atomic Heart" width="200">
-        <p id="Text-Atomic-Heart">Erlebe explosive Begegnungen in einer grandios-irrsinnigen Welt. Passe deinen Kampfstil an jeden Gegner an, nutze die Umgebung und verbessere deine Ausrüstung, um die Mission zu erfüllen. Die Wahrheit wird mit Blut bezahlt.</p>
-
-
-        <h2>Sons of the forest</h2>
-        <img id="Image-Forest"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgamingbolt.com%2Fwp-content%2Fuploads%2F2019%2F12%2FSons-of-the-Forest.jpg&f=1&nofb=1&ipt=0ffa1c5c1df24dc9858955973a6745c39c01f2552ce1fbd1327e21f94dfd6268&ipo=images"
-            alt="Sons of the forest" width="200">
-        <p id="Text-Sons-of-the-forest">Die Suche nach einen vermissten Milliardär führt Dich auf eine abgelegenen Insel, die sich als von Kannibalen verseuchten Hölle entpuppt. Nutze deine handwerklichen Fähigkeiten und kämpfe ums Überleben, allein oder mit Freunden, in dieser neuen, furchterregenden Openworld-Survival-Horror-Spiel</p>
-
-
-        <h2>Forza Horizon 5</h2>
-        <img id="Image-Forza"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgameranx.com%2Fwp-content%2Fuploads%2F2021%2F08%2FForzaHorizon5_KeyArt_Horiz_RGB_Final.jpg&f=1&nofb=1&ipt=729a34557ae7bb0fcc14412d8dbffe363201a2124858757192ff8e6b6b652754&ipo=images"
-            alt="Forza Horizon 5" width="200">
-        <p id="Text-Forza-Horizo-5">Erkunde die pulsierenden Open-World-Landschaften Mexikos mit grenzenloser, unterhaltsamer Fahraction in den besten Autos der Welt. Mach dich auf den Weg zum Hot Wheels Park und erlebe die extremsten Strecken, die je konzipiert wurden. Erfordert Forza Horizon 5.</p>
-
-
-        <h2>Minecraft Legends</h2>
-        <img id="Image-Minecraft"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.nintendo.com%2Fimage%2Fupload%2Fc_fill%2Cw_1200%2Fq_auto%3Abest%2Ff_auto%2Fdpr_2.0%2Fncom%2Fen_US%2Fgames%2Fswitch%2Fm%2Fminecraft-legends-switch%2Fhero&f=1&nofb=1&ipt=28f5baeb9c79493910b69d1ca595fade365c132393893eeb56bb24dcb9b2fbdf&ipo=images"
-            alt="Minecraft Legends" width="200">
-        <p id="Text-Minecraft-Legends">Entdecke die Geheimnisse von Minecraft Legends. Erkunde ein sanftes Land mit reichen Ressourcen und üppigen Biomen am Rande der Zerstörung. Die Piglin sind eingetroffen, und es liegt an dir, deine Verbündeten zu beflügeln und sie in strategische Schlachten zu führen, um die Oberwelt zu retten!
+           
+        </div>
+        <div class="Multyplayer-blocks">
+            <h2>Minecraft Legends</h2>
+            <img id="Image-Minecraft"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.nintendo.com%2Fimage%2Fupload%2Fc_fill%2Cw_1200%2Fq_auto%3Abest%2Ff_auto%2Fdpr_2.0%2Fncom%2Fen_US%2Fgames%2Fswitch%2Fm%2Fminecraft-legends-switch%2Fhero&f=1&nofb=1&ipt=28f5baeb9c79493910b69d1ca595fade365c132393893eeb56bb24dcb9b2fbdf&ipo=images"
+                alt="Minecraft Legends" width="200">
+             <p id="Text-Minecraft-Legends">Entdecke die Geheimnisse von Minecraft Legends. Erkunde ein sanftes Land mit reichen Ressourcen und üppigen Biomen am Rande der Zerstörung. Die Piglin sind eingetroffen, und es liegt an dir, deine Verbündeten zu beflügeln und sie in strategische Schlachten zu führen, um die Oberwelt zu retten!
         </p>
+        </div>
+        <div class="Singleplayer">
+            <h2>Dead Island 2</h2>
+            <img id="Image-Dead-Island"
+                src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fdigitaltrends-uploads-prod%2F2014%2F06%2FDead-Island-2-header.jpg&f=1&nofb=1&ipt=c9959b66f6105cf4d4bae17ba979da73ffd940aa0ac371a756b2c8eec21606d9&ipo=images"
+                alt="Dead Island 2" width="200">
+             <p id="Text-Dead-Island-2">Dead Island 2 ist ein Action-Rollenspiel für das Jahr 2023, das von Dambuster Studios entwickelt und von Deep Silver veröffentlicht wurde. Es ist eine Fortsetzung des Videospiels Dead Island aus dem Jahr 2011 und der dritte große Teil der Dead Island-Serie. Es spielt etwa 15 Jahre nach den Ereignissen von Dead Island und Dead Island: Riptide, unterscheidet sich Dead Island 2 von seinen Vorgängern dadurch, dass es in der Stadt Los Angeles spielt, die aufgrund eines Zombie-Ausbruchs unter Quarantäne gestellt wurde. Das Spiel wurde am 21. April 2023 für PlayStation 4, PlayStation 5, Windows, Xbox One und Xbox Series X/S veröffentlicht.</p>
 
 
-        <h2>Dead Island 2</h2>
-        <img id="Image-Dead-Island"
-            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs3.amazonaws.com%2Fdigitaltrends-uploads-prod%2F2014%2F06%2FDead-Island-2-header.jpg&f=1&nofb=1&ipt=c9959b66f6105cf4d4bae17ba979da73ffd940aa0ac371a756b2c8eec21606d9&ipo=images"
-            alt="Dead Island 2" width="200">
-        <p id="Text-Dead-Island-2">Dead Island 2 ist ein Action-Rollenspiel für das Jahr 2023, das von Dambuster Studios entwickelt und von Deep Silver veröffentlicht wurde. Es ist eine Fortsetzung des Videospiels Dead Island aus dem Jahr 2011 und der dritte große Teil der Dead Island-Serie. Es spielt etwa 15 Jahre nach den Ereignissen von Dead Island und Dead Island: Riptide, unterscheidet sich Dead Island 2 von seinen Vorgängern dadurch, dass es in der Stadt Los Angeles spielt, die aufgrund eines Zombie-Ausbruchs unter Quarantäne gestellt wurde. Das Spiel wurde am 21. April 2023 für PlayStation 4, PlayStation 5, Windows, Xbox One und Xbox Series X/S veröffentlicht.</p>
+           
+        </div>
+        <div class="Singleplayer">
+            <h2>Star Wars Jedi: Survivor</h2>
+            <img id="Image-Jedi"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nzUBtUkqxcemJkWSNlgDWQHaD4%26pid%3DApi&f=1&ipt=871a6ebc90d2f6427da0dcbb0c19ae4bb288c4fba2d6af17764822e8b9aa1336&ipo=images"
+                alt="Star Wars Jedi: Survivor" width="200">
+             <p id="Text-Star-Wars-Jedi-Survivor">Die Geschichte von Cal Kestis geht in STAR WARS Jedi: Survivor™, einem galaxisumspannenden, storybasierten Third-Person-Action-Adventure, weiter.</p>
+
+            
+        </div>
+        <div class="Singleplayer">
+            <h2>The Legend of Zelda: Tears of the Kingdom</h2>
+            <img id="Image-Zelda"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2022%2F09%2Flegend-of-zelda-tears-of-the-kingdom-master-sword-glider-link.jpg&f=1&nofb=1&ipt=8fd1f245ba151386d5603b545e51f01162ecbc8fbcbb491677de079a11cce3d7&ipo=images"
+                alt="The Legend of Zelda: Tears of the Kingdom" width="200">
+            <p id="Text-Zelda">The Legend of Zelda: Tears of the Kingdom[b] is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. The sequel to The Legend of Zelda: Breath of the Wild (2017), Tears of the Kingdom retains aspects including the open world environment of Hyrule, which has been expanded to allow for more vertical exploration. The game's story follows Link's efforts to assist Princess Zelda in preventing Ganondorf from destroying Hyrule.</p>
 
 
-        <h2>Star Wars Jedi: Survivor</h2>
-        <img id="Image-Jedi"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nzUBtUkqxcemJkWSNlgDWQHaD4%26pid%3DApi&f=1&ipt=871a6ebc90d2f6427da0dcbb0c19ae4bb288c4fba2d6af17764822e8b9aa1336&ipo=images"
-            alt="Star Wars Jedi: Survivor" width="200">
-        <p id="Text-Star-Wars-Jedi-Survivor">Die Geschichte von Cal Kestis geht in STAR WARS Jedi: Survivor™, einem galaxisumspannenden, storybasierten Third-Person-Action-Adventure, weiter.</p>
-
-
-        <h2>The Legend of Zelda: Tears of the Kingdom</h2>
-        <img id="Image-Zelda"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2022%2F09%2Flegend-of-zelda-tears-of-the-kingdom-master-sword-glider-link.jpg&f=1&nofb=1&ipt=8fd1f245ba151386d5603b545e51f01162ecbc8fbcbb491677de079a11cce3d7&ipo=images"
-            alt="The Legend of Zelda: Tears of the Kingdom" width="200">
-        <p id="Text-Zelda">The Legend of Zelda: Tears of the Kingdom[b] is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. The sequel to The Legend of Zelda: Breath of the Wild (2017), Tears of the Kingdom retains aspects including the open world environment of Hyrule, which has been expanded to allow for more vertical exploration. The game's story follows Link's efforts to assist Princess Zelda in preventing Ganondorf from destroying Hyrule.</p>
-
-
+            
+        </div>
+ 
     </div>
     <footer>
 
