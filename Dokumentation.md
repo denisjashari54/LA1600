@@ -11,6 +11,7 @@ Apple: Nuriswat, Jesenko, Jashari
 |16.05.2023| 0.3.0|Wir haben jetzt an unseren drei individuellen Unterseiten gearbeitet und von diesen erste versionen erstellt.|
 |23.05.2023| 0.5.0|Wir haben einen Prototyp von unseren Unterseiten fertiggestellt, es hat aber nicht geklappt diese Seiten miteinander zu verlinken. Es hat auch noch nicht geklappt den Filter hinzuzufügen.|
 |30.05.2023| 1.0.0| Eine erste Version unserer Werbseite ist jetzt fertig, aber es gibt noch funktionen wie der Filter die noch nicht ganz funktionieren.|
+|06.06.2023|1.1.0|Wir haben das Aussehen unserer Webseite noch etwas verbessert und die Filter funktion funktioniert jetzt.|
 || 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -109,6 +110,7 @@ Für die Farben haben wir uns noch nicht festgelegt aber vorerst haben wir ein b
 |3.A|16.05.2023|Nursiwat|45min|70min|
 | 3.B  |16.05.2023|Nuriswat|45min|50min|
 | 3.C  |16.05.2023|Nuriswat|90min|120min|
+| 4.A  |06.06.2023|Jesenko|90min|180min|
 
 
 
