@@ -58,7 +58,7 @@ In unserem Projekt werden wir eine Webseite machen, mit News über Games, die ne
 | 4.2  |Filter menü ist offen|User wählt Filter Multyplayer|Es werden nurnoch Multyplayer Games angezeigt.|
 | 4.3  |Fliter menü ist offen|User wählt Filter Singleplayer|Es werden nunoch Singleplayer Games angezeigt.|
 | 6.1  |Webseite ist offen| User drückt auf Link| Verlinktes Objekt öffnet sich.|
-| 7.1  |Wenseite ist offen| - | Im Header sind ein Bild und eine Navigationsleiste|
+| 7.1  |Webseite ist offen| - | Im Header sind ein Bild und eine Navigationsleiste|
 | 8.1  |Webseite ist offen| - | Im Footer sind Verlinkungen die z.B zu einem Impressum führen.|
 | 9.1  |Webseite ist offen| User Hovert über Button| Hovereffekt|
 |10.1  |Webseite ist offen| - |Webseite ist für den Desktop Responsiv|
@@ -119,8 +119,28 @@ Für die Farben haben wir uns noch nicht festgelegt aber vorerst haben wir ein b
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |19.06.2023|OK|Jesenko|
+| 1.2  |19.06.2023|OK|Jesenko|
+| 1.3  |19.06.2023|OK|Jesenko|
+| 2.1  |19.06.2023|OK|Jesenko|
+| 2.2  |19.06.2023|OK|Jesenko|
+| 2.3  |19.06.2023|OK|Jesenko|
+| 3.1  |19.06.2023|OK|Jesenko|
+| 3.2  |19.06.2023|OK|Jesenko|
+| 3.3  |19.06.2023|OK|Jesenko|
+| 4.1  |19.06.2023|NOK|Jesenko|
+| 4.2  |19.06.2023|OK|Jesenko|
+| 4.3  |19.06.2023|OK|Jesenko|
+| 6.1  |19.06.2023|OK|Jesenko|
+| 7.1  |19.06.2023|OK|Jesenko|
+| 8.1  |19.06.2023|NOK|Jesenko|
+| 9.1  |19.06.2023|OK|Jesenko|
+|10.1  |19.06.2023|OK|Jesenko|
+|11.1  |19.06.2023|OK|Jesenko|
+|12.1  |19.06.2023|OK|Jesenko|
+
+Wir haben Nr. 4.1 nicht gemacht, weil wir kein Filter menü gemacht haben, unsere Filter sind direkt erreichbar.
+Wir hatten keine Zeit ein Impressun zu erstellen deswegen hat der "Über Uns" Button keine Funktion.
 
 
 ## 6 Auswerten
