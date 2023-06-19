@@ -12,6 +12,7 @@ Apple: Nuriswat, Jesenko, Jashari
 |23.05.2023| 0.5.0|Wir haben einen Prototyp von unseren Unterseiten fertiggestellt, es hat aber nicht geklappt diese Seiten miteinander zu verlinken. Es hat auch noch nicht geklappt den Filter hinzuzufügen.|
 |30.05.2023| 1.0.0| Eine erste Version unserer Werbseite ist jetzt fertig, aber es gibt noch funktionen wie der Filter die noch nicht ganz funktionieren.|
 |06.06.2023|1.1.0|Wir haben das Aussehen unserer Webseite noch etwas verbessert und die Filter funktion funktioniert jetzt.|
+|13.06.2023|1.1.1|Wir haben eine Kurze Presentation über Hover Effekte gemacht und Bugs gefixt.|
 || 1.0.0   |                                                              |
 
 ## 1 Informieren
