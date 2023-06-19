@@ -1,0 +1,105 @@
+:root {
+    --background-body: #545353;
+    --background-title: #8e8e8e;
+    --background-transform: #6d6c6c;
+    --text-color: #dcdcdc;
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 100px;
+    background-color: var(--background-title);
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 100px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--background-title);
+
+    display: center;
+}
+
+#Hiragana {
+    position: relative;
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 90px;
+
+}
+
+#Hiragana .old-text {
+    padding-left: 35px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#Hiragana .new-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#Hiragana:hover .old-text {
+    opacity: 0;
+}
+
+#Hiragana:hover .new-text {
+    opacity: 1;
+}
+
+#Hiragana:hover {
+    font-size: 110px;
+    transition: background-color 0.75s ease-in-out, font-size 1s ease-in-out;
+    background-color: var(--background-transform);
+
+
+}
+
+#Katakana {
+    position: relative;
+    display: inline-block;
+
+    margin-right: 90px;
+
+}
+
+#Katakana .old-text {
+    padding-left: 35px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#Katakana .new-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#Katakana:hover .old-text {
+    opacity: 0;
+}
+
+#Katakana:hover .new-text {
+    opacity: 1;
+}
+
+#Katakana:hover {
+    font-size: 110px;
+    transition: background-color 0.75s ease-in-out, font-size 1s ease-in-out;
+    background-color: var(--background-transform);
+
+
+}
