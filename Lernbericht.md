@@ -1,11 +1,11 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Apple(Nursiwat, Jesenko, Jashari)
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Wir haben eine Webseite gemacht, wo man News über Games lesen kann.
 
-## Was habe ich gelernt?
+## Was haben wir gelernt?
 
 ✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
 
