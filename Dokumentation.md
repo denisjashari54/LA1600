@@ -144,4 +144,4 @@ Wir hatten keine Zeit ein Impressun zu erstellen deswegen hat der "Über Uns" Bu
 
 
 ## 6 Auswerten
-
+![Lernbericht](https://github.com/denisjashari54/LA1600/blob/main/Lernbericht.md)
