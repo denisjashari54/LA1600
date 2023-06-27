@@ -1,4 +1,3 @@
-
 # Projekt-Dokumentation
 
 
@@ -13,7 +12,9 @@ Apple: Nuriswat, Jesenko, Jashari
 |30.05.2023| 1.0.0| Eine erste Version unserer Werbseite ist jetzt fertig, aber es gibt noch funktionen wie der Filter die noch nicht ganz funktionieren.|
 |06.06.2023|1.1.0|Wir haben das Aussehen unserer Webseite noch etwas verbessert und die Filter funktion funktioniert jetzt.|
 |13.06.2023|1.1.1|Wir haben eine Kurze Presentation über Hover Effekte gemacht und Bugs gefixt.|
-|| 1.0.0   |                                                              |
+|20.06.2023|1.1.1|Wir haben Heute unsere Präsentation gemacht.|
+|27.06.2023|1.1.1|Heute haben wir unseren Lernbericht geschrieben.|
+
 
 ## 1 Informieren
 
@@ -144,4 +145,4 @@ Wir hatten keine Zeit ein Impressun zu erstellen deswegen hat der "Über Uns" Bu
 
 
 ## 6 Auswerten
-![Lernbericht](https://github.com/denisjashari54/LA1600/blob/main/Lernbericht.md)
+Hier ist unser ![Lernbericht](https://github.com/denisjashari54/LA1600/blob/main/Lernbericht.md)
