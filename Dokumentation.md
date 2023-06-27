@@ -113,6 +113,7 @@ Für die Farben haben wir uns noch nicht festgelegt aber vorerst haben wir ein b
 | 3.B  |16.05.2023|Nuriswat|45min|50min|
 | 3.C  |16.05.2023|Nuriswat|90min|120min|
 | 4.A  |06.06.2023|Jesenko|90min|180min|
+| 6.A  |06.06.2023|Jashari|90mi|30min|
 
 
 
